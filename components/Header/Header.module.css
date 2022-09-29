@@ -1,0 +1,202 @@
+.header {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    transition: .7s;
+}
+
+.nav__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+  transition: .3s ease-in-out;
+}
+
+.logo:hover {
+  margin-left: 10px;
+}
+
+.logo h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    /* margin-left: 20px; */
+}
+
+.logo i {
+  padding: 12px;
+  border-radius: 2px 15px 2px 2px;
+  background: var(--orange);
+  color: var(--grey);
+  font-size: 2.2rem;
+  transition: .3s ease-in-out;
+}
+
+.logo i:hover {
+  color: #fff;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.nav__menu {
+    display: flex;
+    align-items: center;
+    column-gap: 2.8rem;
+}
+
+.nav__menu a {
+    color: #aaaaaa;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.nav__menu a:hover {
+    color: var(--orange);
+    margin-top: -7px;
+}
+
+.nav__menu a:first-child {
+    color: var(--orange);
+}
+
+.nav__right {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 5px; */
+}
+
+.nav__right p {
+    display: flex;
+    align-items: center;
+    color: var(--orange);
+    margin-left: 20px;
+    position: relative;
+    /* height: 60px; */
+}
+
+.nav__right i {
+  display: flex;
+    font-size: 2.5rem;
+    color: #aaaaaa;
+    transition: .3s ease-in-out;
+    padding: 5px;
+}
+
+.nav__right a {
+  text-decoration: none;
+}
+
+.nav__right i:hover {
+  color: var(--orange);
+}
+
+.header__shrink {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    line-height: 100px;
+    /* border-bottom: 3px solid rgba(1, 210, 147, 0.5); */
+    box-shadow: 4px 4px 10px -5px var(--lightGrey) !important;
+    z-index: 9999;
+    /* transition: .7s; */
+}
+
+.mobile__menu i {
+  font-size: 1.5rem;
+  color: var(--orange);
+  cursor: pointer;
+}
+
+.mobile__menu {
+  display: none;
+}
+
+/* MAKE IT RESPONSIVE */
+
+@media only screen and (max-width: 992px) {
+  .nav__wrapper {
+    height: 100px;
+    line-height: 80px;
+  }
+
+  .mobile__menu {
+    height: 80px;
+  }
+
+  .mobile__menu i {
+    font-size: 2rem;
+  }
+
+  .navigation {
+    position: fixed;
+    top: 0;;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(74, 63, 53, 0.5);
+    z-index: 9999;
+    display: none;
+  }
+
+  .nav__menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nav__right {
+    display: none;
+  }
+
+  .mobile__menu {
+    display: block;
+  }
+
+  .active__menu {
+    display: block !important;
+  }
+
+  .logo h1 {
+    font-size: 1.3rem !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile__menu i {
+    font-size: 1.7rem;
+  }
+
+  .header {
+    height: 60px;
+    line-height: 60px;
+  }
+
+  .logo i {
+    font-size: 1rem;
+  }
+
+  .nav__wrapper {
+    height: 60px;
+  }
+
+  .mobile__menu {
+    height: 60px;
+    align-items: center;
+    margin-top: -20px;
+  }
+}

@@ -1,0 +1,18 @@
+.section__subtitle {
+  color: var(--orange) !important;
+  font-weight: 400;
+  margin-left: 40px;
+  font-size: 1.7rem;
+  position: relative;
+}
+
+.section__subtitle::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  width: 30px;
+  height: 2px;
+  background: var(--orange);
+  color: var(--orange);
+}

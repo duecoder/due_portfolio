@@ -9,11 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bootstrap": "^5.2.1",
     "next": "12.3.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-slick": "^0.29.0",
+    "reactstrap": "^9.1.4",
+    "remixicon": "^2.5.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
+    "@types/react": "^18.0.21",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1"
   }

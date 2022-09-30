@@ -37,6 +37,8 @@
 }
 
 .services__item h5 {
+  display: flex;
+  align-items: center;
   font-size: 1rem;
 }
 

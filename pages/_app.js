@@ -1,6 +1,6 @@
+import "bootstrap/dist/css/bootstrap.css";
 import "../styles/globals.css";
 import Head from "next/head";
-import "bootstrap/dist/css/bootstrap.css";
 import "remixicon/fonts/remixicon.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Due Portfolio</title>
+        <link rel="shortcut icon" href="/code_ico.ico" />
       </Head>
       <Layout>
         <Component {...pageProps} />

@@ -3,6 +3,7 @@
     height: 100px;
     line-height: 100px;
     transition: .7s;
+    background: var(--grey);
 }
 
 .nav__wrapper {
@@ -46,6 +47,7 @@
     display: flex;
     align-items: center;
     column-gap: 2.8rem;
+    background: var(--grey);
 }
 
 .nav__menu a {
@@ -144,7 +146,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(74, 63, 53, 0.5);
+    background: rgba(74, 63, 53, 0.7);
     z-index: 9999;
     display: none;
   }

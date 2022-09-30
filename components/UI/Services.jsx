@@ -35,12 +35,12 @@ const Services = () => {
         <Row>
           <Col>
             <div className={`${classes.icons_container}`}>
-              <SiNextdotjs className={`${classes.skills_icon}`} size={45} />
-              <SiJavascript className={`${classes.skills_icon}`} size={45} />
-              <SiTypescript className={`${classes.skills_icon}`} size={45} />
-              <SiBootstrap className={`${classes.skills_icon}`} size={45} />
-              <SiPython className={`${classes.skills_icon}`} size={45} />
-              <SiGithub className={`${classes.skills_icon}`} size={45} />
+              <SiNextdotjs className={`${classes.skills_icon}`} />
+              <SiJavascript className={`${classes.skills_icon}`} />
+              <SiTypescript className={`${classes.skills_icon}`} />
+              <SiBootstrap className={`${classes.skills_icon}`} />
+              <SiPython className={`${classes.skills_icon}`} />
+              <SiGithub className={`${classes.skills_icon}`} />
             </div>
           </Col>
         </Row>

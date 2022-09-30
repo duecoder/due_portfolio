@@ -26,7 +26,11 @@ const Hero = () => {
           </div>
           <div className="mt-5 mb-5">
             <button className="primary__btn"><Link href='#contact'>Talk to me</Link></button>
-            <button className="secondary__btn"><Link href='#'>Download CV</Link></button>
+            <button className="secondary__btn">
+              <Link href='#'>
+                <a href='/docs/cv_eduardo.pdf' target='_blank' rel="noopener noreferrer">Download CV</a>
+              </Link>
+            </button>
           </div>
         </Col>
 

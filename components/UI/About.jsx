@@ -49,14 +49,18 @@ const About = () => {
             <div className="mt-5">
               <button className="primary__btn"><Link href='#portfolio'>My Portfolio</Link></button>
 
-              <button className="secondary__btn"><Link href='#portfolio'>Download CV</Link></button>
+              <button className="secondary__btn">
+                <Link href='#portfolio'>
+                  <a href='/docs/cv_eduardo.pdf' target='_blank' rel="noopener noreferrer">Download CV</a>
+                </Link>
+              </button>
             </div>
           </Col>
 
           <Col lg={6}>
 
-            <div className={`${classes.about__img__box__gallery} d-flex gap-4 justify-content-end`}>
-              <div className="d-flex flex-column mb-1">
+            <div className={`${classes.about__img__box__gallery} d-flex justify-content-center`}>
+              <div className="d-flex align-items-center justify-content-center mb-1">
                 <div className={`${classes.about__img} ${classes.about__img__box}`}>
                   <Image src={img01} alt='about-img' />
                 </div>

@@ -27,7 +27,9 @@
 }
 
 .about__img__box {
-  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  /* margin-right: 50px; */
   width: 300px !important;
 }
 
@@ -35,7 +37,6 @@
   .about__img__box__gallery {
     justify-content: center !important;
     margin-top: 50px;
-    margin-left: 50px;
   }
 
   .about__content h3 {
@@ -49,7 +50,7 @@
     margin-top: 50px;
   }
   .about__img__box {
-    margin-left: 12px;
+    /* margin-left: 12px; */
     width: 150px;
   }
 }

@@ -29,6 +29,7 @@
   color: var(--orange);
   background: transparent;
   transition: .3s ease-in-out;
+  font-size: 3rem;
 }
 
 .skills_icon:hover {
@@ -54,8 +55,55 @@
   }
 
   .icons_container {
-    width: 480px;
+    width: 70%;
     padding: 25px;
   }
 
+}
+
+@media only screen and (max-width: 768px) {
+  .icons_container {
+    width: 80%;
+    padding: 18px;
+  }
+
+  .skills_icon {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .skills_icon {
+    font-size:2.5rem;
+  }
+  .icons_container {
+    padding: 15px;
+    width: 80%;
+    /* display: none; */
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .icons_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .icons_container {
+    width: 100%;
+    padding: 14px;
+  }
+
+  .skills_icon {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .icons_container {
+    display: none;
+  }
 }

@@ -18,7 +18,7 @@ const Form = () => {
     let valid = true;
 
     if (!name.value) {
-      toast.error('Your need to tell me your name!', icon)
+      toast.error('Your need to tell me your name!')
       valid = false;
     }
 
